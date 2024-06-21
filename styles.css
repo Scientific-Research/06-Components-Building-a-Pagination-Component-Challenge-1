@@ -58,9 +58,15 @@ body {
   background-color: #087f5b;
 }
 
+/*with the below statement, when we hover the button surrounded SVG, the SVG would be white color!*/
 .btn-caret:hover .caret-icon {
   stroke: #fff;
 }
+
+/*but with the below statement, when i hover over the circle button, the SVG will not become white color and as soon as i enter in SVG zone, it will be white, what we don't want, that's why i comment the below statement out!*/
+/* .caret-icon:hover {
+  stroke: #fff;
+} */
 /* //////////////////////////////// */
 
 .caret-icon {
