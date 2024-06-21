@@ -53,13 +53,15 @@ body {
   justify-content: center;
 }
 
-.caret-icon:hover {
-  stroke: #fff;
-}
-
+/* We need to these two below statements to get the SVG hovered, when i hover on the button enclosed SVG:///////////////////// */
 .btn-caret:hover {
   background-color: #087f5b;
 }
+
+.btn-caret:hover .caret-icon {
+  stroke: #fff;
+}
+/* //////////////////////////////// */
 
 .caret-icon {
   height: 24px;
@@ -68,9 +70,8 @@ body {
 }
 
 .pagination {
-  height: 60px;
-  width: 60px;
-  font-size: x-large;
+  height: 36px;
+  width: 36px;
   cursor: pointer;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -93,7 +94,6 @@ body {
 :visited {
   font-size: 18px;
   color: #343a40;
-  text-decoration: none;
 }
 
 .number-three {
