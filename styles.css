@@ -90,17 +90,22 @@ body {
   justify-content: center;
 }
 
-.pagination:hover,
-:active {
+.pagination:hover {
   background-color: #087f5b;
   color: #fff;
 }
 
-.pagination:link,
+/* .pagination:hover,
+:active {
+  background-color: #087f5b;
+  color: #fff;
+} */
+
+/* .pagination:link,
 :visited {
   font-size: 18px;
   color: #343a40;
-}
+} */
 
 .number-three {
   background-color: #087f5b;
