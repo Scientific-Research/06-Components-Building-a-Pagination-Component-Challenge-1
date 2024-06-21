@@ -42,8 +42,8 @@ body {
 .btn-caret {
   background: none; /*to remove the default background color of the button*/
   border: 1px solid #087f5b;
-  height: 60px;
-  width: 60px;
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
   cursor: pointer;
 
@@ -62,8 +62,8 @@ body {
 }
 
 .caret-icon {
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
   stroke: #087f5b;
 }
 
@@ -83,9 +83,17 @@ body {
   justify-content: center;
 }
 
-.pagination:hover {
+.pagination:hover,
+:active {
   background-color: #087f5b;
   color: #fff;
+}
+
+.pagination:link,
+:visited {
+  font-size: 18px;
+  color: #343a40;
+  text-decoration: none;
 }
 
 .number-three {
