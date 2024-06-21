@@ -29,7 +29,7 @@ body {
 
 .paginations {
   /* background-color: rgb(224, 207, 207); */
-  width: 800px;
+  /* width: 800px; we don't need width here, because we don't use margin: a-value auto to center the content, rather w use the flex conainer as explained above in the body. */
   margin-top: 300px;
 
   /*To bring all the items on the page in a row and center them horizontally and vertically!*/
