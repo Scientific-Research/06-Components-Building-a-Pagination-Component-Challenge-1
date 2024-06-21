@@ -70,12 +70,17 @@ body {
 .pagination {
   height: 60px;
   width: 60px;
-  font-size: xx-large;
+  font-size: x-large;
   cursor: pointer;
-  background-color: #fff;
   border: 2px solid #fff;
   border-radius: 50%;
   color: #087f5b;
+  text-decoration: none;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pagination:hover {
