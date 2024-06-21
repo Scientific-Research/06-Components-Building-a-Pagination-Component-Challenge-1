@@ -40,7 +40,7 @@ body {
 }
 
 .btn-caret {
-  background-color: #fff;
+  background: none; /*to remove the default background color of the button*/
   border: 1px solid #087f5b;
   height: 60px;
   width: 60px;
