@@ -53,9 +53,12 @@ body {
   justify-content: center;
 }
 
+.caret-icon:hover {
+  stroke: #fff;
+}
+
 .btn-caret:hover {
   background-color: #087f5b;
-  color: #fff;
 }
 
 .caret-icon {
