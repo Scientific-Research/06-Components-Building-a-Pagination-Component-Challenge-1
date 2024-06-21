@@ -21,9 +21,6 @@ GREY COLOR: #343a40
 /* ------------------------ */
 body {
   font-family: "Inter", sans-serif;
-  /* color: #0b2540; */
-  /* border-bottom: 8px solid #087f5b; */
-  line-height: 1; /*line-height get herited by other elements - that's why as GLOBAL RESET, we can use it here!*/
 
   /*To bring the all the entire numbers in the middle of the page using flex container:*/
   display: flex;
@@ -32,20 +29,21 @@ body {
 
 .paginations {
   /* background-color: rgb(224, 207, 207); */
-  width: 500px;
-  margin-top: 100px;
-  /* border-radius: 8px; */
+  width: 800px;
+  margin-top: 300px;
 
+  /*To bring all the items on the page in a row and center them horizontally and vertically!*/
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 15px;
 }
 
 .btn-caret {
   background-color: #fff;
   border: 1px solid #087f5b;
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   cursor: pointer;
 
@@ -61,14 +59,15 @@ body {
 }
 
 .caret-icon {
-  height: 15px;
-  width: 15px;
+  height: 30px;
+  width: 30px;
   stroke: #087f5b;
 }
 
 .pagination {
-  height: 30px;
-  width: 30px;
+  height: 60px;
+  width: 60px;
+  font-size: xx-large;
   cursor: pointer;
   background-color: #fff;
   border: 2px solid #fff;
